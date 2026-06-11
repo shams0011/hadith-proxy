@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/api/hadith/:path*", "destination": "/api/hadith?path=:path*" }
-  ]
+  "name": "hadith-proxy",
+  "version": "1.0.0",
+  "description": "Bangla Hadith API Proxy",
+  "engines": {
+    "node": "18.x"
+  }
 }
