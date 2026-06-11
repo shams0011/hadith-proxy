@@ -1,5 +1,5 @@
 {
-  "name": "hadith-proxy",
-  "version": "1.0.0",
-  "description": "Bangla Hadith API Proxy"
+  "rewrites": [
+    { "source": "/api/hadith/:path*", "destination": "/api/hadith?path=:path*" }
+  ]
 }
